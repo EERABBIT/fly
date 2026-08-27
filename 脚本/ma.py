@@ -87,12 +87,21 @@ def ma(closes, n):
     return sum(closes[-n:]) / n if len(closes) >= n else None
 
 
-def report(code):
+def report(code, today=None):
     try:
         bars, name = daily(code)
-    except Exception as e:
-        print(f"{code}  取数失败 {type(e).__name__}")
-        return
+        src = ""
+    except Exception:
+        try:
+            bars, name = daily_sina(code)
+            src = " [sina]"
+        except Exception as e:
+            print(f"{code}  取数失败 {type(e).__name__}")
+            return
+    # 盘中跑的时候数据源会带一根当天的未完成 K 线,丢掉,均线只用收盘价算
+    if today and bars and bars[-1][0] == today:
+        bars = bars[:-1]
+        src += " 已剔除当日盘中K线"
     if not bars:
         print(f"{code}  无数据")
         return
@@ -108,11 +117,14 @@ def report(code):
     hi20 = max(b[3] for b in bars[-20:])
     newlow = "破20日新低" if last[4] <= lo20 + 1e-9 else ""
     print(f"{name}({code}) {last[0]} 收{px:7.2f}  " + "  ".join(parts)
-          + f"  20日[{lo20:.2f},{hi20:.2f}] {newlow}")
+          + f"  20日[{lo20:.2f},{hi20:.2f}] {newlow}{src}")
 
 
 if __name__ == "__main__":
-    codes = sys.argv[1:] or [p[0] for p in json.load(open(POS, encoding="utf-8"))["positions"]]
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    # --intraday: 盘中跑时丢掉当天那根未完成的日线(否则均线被实时价污染)
+    today = time.strftime("%Y-%m-%d") if "--intraday" in sys.argv else None
+    codes = args or [p[0] for p in json.load(open(POS, encoding="utf-8"))["positions"]]
     for c in codes:
-        report(c)
+        report(c, today)
         time.sleep(0.8)   # push2his drops back-to-back connections
