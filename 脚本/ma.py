@@ -62,6 +62,27 @@ def daily(code, beg="20260101", end="20301231", fqt=1, retry=len(HOSTS)):
     return [], code
 
 
+SINA = ("https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/"
+        "CN_MarketData.getKLineData?symbol={s}&scale=240&ma=no&datalen={n}")
+
+
+def daily_sina(code, n=60):
+    """Fallback source. push2his has stretches where every mirror answers with an
+    empty body (curl: 52) no matter the host or headers -- sina still serves.
+    Same 前复权 daily bars; spot-checked against push2his on 600893 (MA5/10/21/34
+    and the 20-day range matched to the cent).
+    """
+    sym = ("sh" if code.startswith("6") else "sz") + code
+    cmd = ["curl", "-s", "-m", "20", "-A", UA, SINA.format(s=sym, n=n)]
+    raw = subprocess.run(cmd, capture_output=True, timeout=25).stdout.decode()
+    rows = json.loads(raw)
+    out = [(r["day"], float(r["open"]), float(r["close"]), float(r["high"]),
+            float(r["low"]), float(r["volume"])) for r in rows]
+    if not out:
+        raise ValueError("empty klines")
+    return out, code
+
+
 def ma(closes, n):
     return sum(closes[-n:]) / n if len(closes) >= n else None
 
