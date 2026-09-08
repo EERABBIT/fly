@@ -1,0 +1,281 @@
+[
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-01_底部股起来了.md",
+    "sha256": "cadf89fe0f9d1a7d785eeb557719a73f6793304eb04f53a43766bd8c3112876e",
+    "characters": 1170,
+    "paragraphs": 15,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 1,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-02_新领导新气象.md",
+    "sha256": "3a69c047029f501358f59ad66aa91bff3a12f7e2cf0798c2191f68480f9e64c5",
+    "characters": 1541,
+    "paragraphs": 12,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 1,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-03_吃多了.md",
+    "sha256": "f832c3f9f5a52abccfc3eb925dae4da0f188ffbb0758d9d1d5ff64aec9d041ce",
+    "characters": 18,
+    "paragraphs": 1,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 0,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-04_怎么办啊！！怎么破局.md",
+    "sha256": "9fc98832c925eaefe7b9f050d3e069589c81214f486c209465486da5c761337b",
+    "characters": 1129,
+    "paragraphs": 16,
+    "market_paragraphs": 6,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-05_均衡配置.md",
+    "sha256": "2a142c28517dae370318a502102e715a2b87dd49854f60d58ed4fde855a5c12c",
+    "characters": 1096,
+    "paragraphs": 12,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-06_天天股灾啊.md",
+    "sha256": "10ff182d838bb7c3a303f0eda1d932cf960fd9159acfa576b97bb4134eb52744",
+    "characters": 1178,
+    "paragraphs": 13,
+    "market_paragraphs": 5,
+    "rule_paragraphs": 6,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-07_快乐的炒股吗？.md",
+    "sha256": "834adc7ce79c89640ca5dc99e3b32e18da5c4ffb1cfee182d8a07152e852cd30",
+    "characters": 1129,
+    "paragraphs": 12,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-08_股灾中也是能新高的啊。。。.md",
+    "sha256": "4e1f66df9bab6c3cd7e026ad9e5ab244cfa5f7539a60eac5b3f56bdfcd2d8306",
+    "characters": 1271,
+    "paragraphs": 11,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 6,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-09_守住自己的底裤.md",
+    "sha256": "66fedf750405cb94ebef4818c88f12409b65f239db62084ba0ff6655b3d2ece2",
+    "characters": 1057,
+    "paragraphs": 10,
+    "market_paragraphs": 6,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-10_暑期旅游人数超越19年甚多.md",
+    "sha256": "4eb927b88e8589e1e62583134aac348bec6ce1c57a45e60e7c02428092f3884c",
+    "characters": 1624,
+    "paragraphs": 14,
+    "market_paragraphs": 6,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-11_成交量低于8000亿了。.md",
+    "sha256": "74b89f4cc032c3199c1e5224d356993340cd6603c97736ac04a4a971010cffa1",
+    "characters": 1169,
+    "paragraphs": 15,
+    "market_paragraphs": 5,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-12_继续缩量反弹，持续的新高.md",
+    "sha256": "e1e2f93456e3dd34a9004af3b1d5817ccd5769a56d96bca16ddeb4fb17ce8021",
+    "characters": 1368,
+    "paragraphs": 19,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 6,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-13_完了，全完了，亏麻辣，亏惨辣.md",
+    "sha256": "37d8282400c31b1378e23da8e5235af974d509a5ef91207547c8bea1547f5a10",
+    "characters": 1291,
+    "paragraphs": 15,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-14_这里什么人惨.md",
+    "sha256": "f8e5a5b57b700a154fb2ef0a9701e41f8f4d99ab510f9558fcadfd4b7f1669cd",
+    "characters": 1242,
+    "paragraphs": 16,
+    "market_paragraphs": 5,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-15_这里的操作.md",
+    "sha256": "49548e42dd5130f6fe47a3e0926b369d389283584657d00811854b48ed7138c2",
+    "characters": 1154,
+    "paragraphs": 7,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-16_再说两个业绩预报.md",
+    "sha256": "9fece4fd4a305a093d4b5658418d5629eb33915eae11d9cff43ae7cfa475e7f2",
+    "characters": 1211,
+    "paragraphs": 9,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 1,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-17_这里就说个股怎么做.md",
+    "sha256": "ef6efc2e9501d5bf6b4bcdbafad82893fceaa6c3d2980a520cb50047d7a6753c",
+    "characters": 2502,
+    "paragraphs": 19,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-18_做T中新高-------亏惨了亏麻了好像更能吸引阅读量啊。。。.md",
+    "sha256": "78e15b793792791db9b1d46fe81c28e28f73511adb898e668fb974039a86cb76",
+    "characters": 1096,
+    "paragraphs": 15,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-19_天天股灾，天天新高。.md",
+    "sha256": "fa914b431cfc556594554924f53e463b3c0ece8b1e7fb22387e7d422065b7d3b",
+    "characters": 1321,
+    "paragraphs": 14,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-20_天天2700个股绿啊！！！神经病啊！！！.md",
+    "sha256": "0bbf4c3f61bca6a71316f391a8a4388bab028eb3d9c8c2eb6a9398149ad9c364",
+    "characters": 1312,
+    "paragraphs": 13,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-21_真的是可怕的啊！！！.md",
+    "sha256": "123d0889d68a906f903940824ae2f1ca828fa339ea623f0c84989708fbf6c970",
+    "characters": 1218,
+    "paragraphs": 13,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 7,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-22_天天股灾，天天亏麻，什么时候是个头.md",
+    "sha256": "71221e6f34bdf1f40d2c0dd200f99600d0bf813d820d8cc34197f721c34b1710",
+    "characters": 1054,
+    "paragraphs": 13,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-23_浙江队赢了山东泰山啦.md",
+    "sha256": "a8d98a548030e29b739399062de41663bce0bfe9f374f51e8eec7d964d0ca026",
+    "characters": 1169,
+    "paragraphs": 6,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 1,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-24_这里指数的走势预测.md",
+    "sha256": "f747408252b8962fcab37d00319639fe3c6d14c1303864de35445ebe4cc51106",
+    "characters": 1210,
+    "paragraphs": 18,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 0,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-25_太可怕了。.md",
+    "sha256": "412f5678ae4a6e708742c2be395595d412c27386fd4127d63dfe5bfc8d72696d",
+    "characters": 1183,
+    "paragraphs": 16,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-26_券商带你新高咯~~~太酷辣~~~~~~~~~.md",
+    "sha256": "c63c2757b59067844ef9634404f50516d45f631961ec331c377eec705fec3a3c",
+    "characters": 1277,
+    "paragraphs": 21,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-27_说说配置仓的几个现象.md",
+    "sha256": "853e949296c4afae23c68a10dc15ff2bda2a4a0ee0f8aef1a3cf3c404fdcf3db",
+    "characters": 1565,
+    "paragraphs": 44,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-28_这里怎么亏钱最快.md",
+    "sha256": "7e405d92d808861b02ea7357f646c5cb74982db140058123d78a1672d6598d34",
+    "characters": 1181,
+    "paragraphs": 16,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 6,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-29_这周你没有大金融感觉就是吃粑粑啊。。.md",
+    "sha256": "f2d6533274620981fd9055ad6d2f5f5dbd01e1b2f96b55c8d56e51b558072dd5",
+    "characters": 1192,
+    "paragraphs": 9,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-30_焦虑吗？焦虑吗？.md",
+    "sha256": "7ef96da1ad6bbbd56dcc9cc25539404d77f9138435b1836f769fc95d71b23dcc",
+    "characters": 1201,
+    "paragraphs": 12,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/7/2023-07-31_如何做券商暴涨后的行情.md",
+    "sha256": "a5a92a80c7a0391027ea5e42025341cd95114b1a8e7dc17f8c9b37c163a94378",
+    "characters": 1688,
+    "paragraphs": 20,
+    "market_paragraphs": 7,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  }
+]

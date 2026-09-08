@@ -1,0 +1,281 @@
+[
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-01_大狗差点把我砸绿了啊！！！.md",
+    "sha256": "66d193cbfb25bad3c4af8c1463d878c027379f92949e001071200b7d32d025a5",
+    "characters": 1176,
+    "paragraphs": 16,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-02_又开始天天股灾咯~~~~~.md",
+    "sha256": "cbb2468b0eadeb55685160317eb43718668760a4a04acd6551185860cb62df94",
+    "characters": 1159,
+    "paragraphs": 18,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 6,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-03_牛市只有几半天啊。。。.md",
+    "sha256": "78ff9971d2eb7e3aa7b515658bfaa7c477bd053c5be321e3f0cbf3c08398eaab",
+    "characters": 1113,
+    "paragraphs": 14,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-04_天天天天股灾.md",
+    "sha256": "76bb271c4e8febe301fcb060072daa685871ff57692e2ae30133ef0293107818",
+    "characters": 1070,
+    "paragraphs": 11,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-05_没有券商，地产怎么办.md",
+    "sha256": "cda47577afade20b80d35a98cda0ca0e4aecd754266caf60e0413a3c655f37aa",
+    "characters": 1143,
+    "paragraphs": 13,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-06_压马路累了.md",
+    "sha256": "8cfa68868fdf1cc6a0bed725ddaa9011467fc40d65f0e08572e190de7049a18f",
+    "characters": 11,
+    "paragraphs": 1,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 0,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-07_如何在猴市里面寻找超额收益.md",
+    "sha256": "ef93c270c44bcaeb00003468778e713b0ad7bf2892e036d06a8510fb5117fa04",
+    "characters": 1157,
+    "paragraphs": 12,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-08_股灾天天天天来.md",
+    "sha256": "ce2ecdd01c8f389fd9f051741fa2cc1b4b4879d880acaa1eff4dec46871f8d4c",
+    "characters": 1218,
+    "paragraphs": 11,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-09_闷着了啊.md",
+    "sha256": "060ae1fd6b322ad746cc6c8305de990ca5f145329c22f823cd64eece9413e013",
+    "characters": 1097,
+    "paragraphs": 10,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-10_再熬两天.md",
+    "sha256": "eaa1d890a75a20f152d3f430eb3fced4f42eb0fb6b3c481ec4909f2b41479d14",
+    "characters": 1123,
+    "paragraphs": 12,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-11_天天拉券商啊.md",
+    "sha256": "a8684d8b280066e9fabe1592f7d6c59e06ec1f135d31e15531a98205a610041a",
+    "characters": 1140,
+    "paragraphs": 15,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 5,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-12_真的是侮辱智商.md",
+    "sha256": "523b8278029136772ab07a1f03f84cc5862b6dcf084df8380f1e99144d5cd7b1",
+    "characters": 1099,
+    "paragraphs": 11,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-13_出去旅游咯.md",
+    "sha256": "5f8e1d41f747b35156d07ce72ce83605518dc3c0a8aec063652f4b8c633ce0cb",
+    "characters": 79,
+    "paragraphs": 1,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 0,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-14_股灾怎么办.md",
+    "sha256": "e63d0840a80a019284c50279cde8f80b6c363a38fffdd6775a619ebe57d32e97",
+    "characters": 1378,
+    "paragraphs": 51,
+    "market_paragraphs": 4,
+    "rule_paragraphs": 7,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-15_一件让我觉得很奇怪的事情。。.md",
+    "sha256": "7cf7e46b5d653c5fa764ce3a73cd9291ec173bc7636f69d608f72d6af59ac310",
+    "characters": 2148,
+    "paragraphs": 60,
+    "market_paragraphs": 7,
+    "rule_paragraphs": 7,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-16_还能说什么.md",
+    "sha256": "b444c91ec2701749d5701c7389508807385a647b953851c2432e795af43c8427",
+    "characters": 1953,
+    "paragraphs": 33,
+    "market_paragraphs": 7,
+    "rule_paragraphs": 8,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-17_股灾辣，亏麻辣。.md",
+    "sha256": "627ddc315c79265222359880a27282c583233a5afadcea026f2eb0e5931d06ad",
+    "characters": 1724,
+    "paragraphs": 29,
+    "market_paragraphs": 6,
+    "rule_paragraphs": 7,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-18_二阳了。。。.md",
+    "sha256": "d350022f35975648f07dd2ff66191e2b5e4741d3582e460f07ec2b005ee8b7ad",
+    "characters": 21,
+    "paragraphs": 1,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 0,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-19_人生处处有惊喜.md",
+    "sha256": "b983f3f08b699b0daba4f23cbd18aa1608367401355a1111a5f7a7d1dc6edd3b",
+    "characters": 880,
+    "paragraphs": 50,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-20_回家咯，金融战开始了？.md",
+    "sha256": "0cba2cd161e6b8d08a0475a606852465a7064726c7081169726aeec7a52b727f",
+    "characters": 955,
+    "paragraphs": 42,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 0,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-21_开战咯.md",
+    "sha256": "a7f86c80ed3a2f7d3397d97185354af3631c127c4262d2353c40d8a45da5ce23",
+    "characters": 1233,
+    "paragraphs": 20,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-22_这次真的全完了。跌完了啊。.md",
+    "sha256": "ca4c1dbedcade7f7c8b512795b613fff9e212889148bc8f0018b4de92bba6dd8",
+    "characters": 1650,
+    "paragraphs": 21,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-23_完了，全亏完了！！！.md",
+    "sha256": "b395b4649be371034342987da60eae5bad2769b06c6098666e7c76e78b31c72f",
+    "characters": 1217,
+    "paragraphs": 15,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-24_坚持，离2800点也就280点了.md",
+    "sha256": "6249f234068f0d03702742eeff2882adb30ad3a5e8059eef25a6202bdfbaa658",
+    "characters": 1144,
+    "paragraphs": 10,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-25_被干服了吗？？？应该是被干服了。。.md",
+    "sha256": "211b0c862a6748627ac0eedfd93096d7de877ea7f7ab7fd4fc8a93275eaf4a54",
+    "characters": 1149,
+    "paragraphs": 10,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-26_就拉券商银行就是救市？.md",
+    "sha256": "4707b3efd83e45663d191ce54e607de4356416d8d5f50ff99494743d33f748d8",
+    "characters": 1110,
+    "paragraphs": 12,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 1,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-27_怎么样在股市才能赚到钱.md",
+    "sha256": "1c754d8876c472ef9cbf945071d10c1dfb887d2d629e0205c287b4824c4720da",
+    "characters": 1131,
+    "paragraphs": 10,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-28_政策组合拳来啦.md",
+    "sha256": "49a10850abea8b05ac67ffbd749c64cc8631ce17955907e63a156550db47453c",
+    "characters": 1154,
+    "paragraphs": 10,
+    "market_paragraphs": 2,
+    "rule_paragraphs": 3,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-29_真的，炒股8年，让我又学习了新知识.md",
+    "sha256": "9482b5ad12267f2df74239400512d503dcea038d2f78965f4b7c62fed6036047",
+    "characters": 1212,
+    "paragraphs": 12,
+    "market_paragraphs": 1,
+    "rule_paragraphs": 2,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-30_完了啊.md",
+    "sha256": "f002dbf3ecc5742555bc6f6aacdcbcd587b86f335bd788f75546f7670b8508b0",
+    "characters": 8,
+    "paragraphs": 0,
+    "market_paragraphs": 0,
+    "rule_paragraphs": 0,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  },
+  {
+    "path": "docs_clean/苍蝇的二级市场/2023/8/2023-08-31_老酒喝醉了，连醉两天.md",
+    "sha256": "50d7462acb1e88334ab3acba1df932c0f64113a542ce09b0e03a5008abcc1c7f",
+    "characters": 1235,
+    "paragraphs": 10,
+    "market_paragraphs": 3,
+    "rule_paragraphs": 4,
+    "coverage": "全量文本结构化扫描；模型阅览逐篇摘要索引及所选完整关键段落，非逐篇全文精读"
+  }
+]

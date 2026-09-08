@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "sh000001",
+    "overlap_days": 1863,
+    "mismatches_over_0_025": [],
+    "source_url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sh000001&scale=240&ma=no&datalen=1970",
+    "first": "2018-07-25",
+    "last": "2026-09-04"
+  },
+  {
+    "symbol": "sh000300",
+    "overlap_days": 1863,
+    "mismatches_over_0_025": [],
+    "source_url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sh000300&scale=240&ma=no&datalen=1970",
+    "first": "2018-07-25",
+    "last": "2026-09-04"
+  },
+  {
+    "symbol": "sz399967",
+    "overlap_days": 1863,
+    "mismatches_over_0_025": [],
+    "source_url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sz399967&scale=240&ma=no&datalen=1970",
+    "first": "2018-07-25",
+    "last": "2026-09-04"
+  }
+]

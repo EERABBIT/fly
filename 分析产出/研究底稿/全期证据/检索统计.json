@@ -1,0 +1,16 @@
+{
+  "articles": 2303,
+  "months": 81,
+  "topic_article_hits": {
+    "仓位快照": 1536,
+    "禁区与修正": 1653,
+    "事件窗口": 1186,
+    "规则与动作": 1769,
+    "自评": 1394,
+    "市场结构": 1337,
+    "指数有效性": 356,
+    "资金流向": 364
+  },
+  "exact_duplicate_extra_articles": 36,
+  "heading_suffix_files": 36
+}

@@ -1,0 +1,570 @@
+{
+  "retrieved_at": "2026-09-07T10:28:30.941213",
+  "cutoff": "2026-09-04",
+  "provider": "腾讯证券公开K线接口",
+  "definitions": "数组次序: date,open,close,high,low,volume; 指数价格序列非账户净值；指数未作股票分红复权解释",
+  "summary": [
+    {
+      "symbol": "sh000001",
+      "name": "上证指数",
+      "days": 1863,
+      "first": "2019-01-02",
+      "last": "2026-09-04"
+    },
+    {
+      "symbol": "sh000300",
+      "name": "沪深300",
+      "days": 1863,
+      "first": "2019-01-02",
+      "last": "2026-09-04"
+    },
+    {
+      "symbol": "sh000016",
+      "name": "上证50",
+      "days": 1863,
+      "first": "2019-01-02",
+      "last": "2026-09-04"
+    },
+    {
+      "symbol": "sh000905",
+      "name": "中证500",
+      "days": 1863,
+      "first": "2019-01-02",
+      "last": "2026-09-04"
+    },
+    {
+      "symbol": "sh000852",
+      "name": "中证1000",
+      "days": 1863,
+      "first": "2019-01-02",
+      "last": "2026-09-04"
+    },
+    {
+      "symbol": "sz399006",
+      "name": "创业板指",
+      "days": 1863,
+      "first": "2019-01-02",
+      "last": "2026-09-04"
+    },
+    {
+      "symbol": "sz399967",
+      "name": "中证军工",
+      "days": 1863,
+      "first": "2019-01-02",
+      "last": "2026-09-04"
+    },
+    {
+      "symbol": "sh000688",
+      "name": "科创50",
+      "days": 1619,
+      "first": "2020-01-02",
+      "last": "2026-09-04"
+    }
+  ],
+  "requests": [
+    {
+      "symbol": "sh000001",
+      "year": 2019,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2019-01-01,2019-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2019.json",
+      "sha256": "57f68ed3956bb4dedf7d1f3e9b75d7a04b71e01b06247802f06a6993c59c6190",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000001",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2020.json",
+      "sha256": "d283e4db3c99e37fc9bb3c9d483d0f512f5d976045383c5f704bfda41e5da0bc",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000001",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2021.json",
+      "sha256": "c9e6ae27cb5d780a17386925b5828560d9e26a8170ec86e9ef1af2f1e4b796b7",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000001",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2022.json",
+      "sha256": "976c3796db4176594895a8e0f27de5d664c1ec6906f126de2cfd656a13ae94fd",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000001",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2023.json",
+      "sha256": "9c55ea6cf47d855371857c1854df36b07094453578c03440246c176a0b490552",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000001",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2024.json",
+      "sha256": "3e0fdc16f0adf7be8cc6fb1efc551a8aff6a8f446903f3934fd2e1dc91556597",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000001",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2025.json",
+      "sha256": "fc265b068121dc6fc28042c7e141b583210e8a4ce7911d11398e7f0d6c62ac0c",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000001",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000001-2026.json",
+      "sha256": "dea340a3972adb20515c1f48f2effc8219140c5b056011bf68d0b8bf71150ce2",
+      "name": "上证指数"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2019,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2019-01-01,2019-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2019.json",
+      "sha256": "873655283e8fa3436ae19fcc15ca2bc54aa2e8b399062f39d5b02c561e328ea0",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2020.json",
+      "sha256": "a4eadf931d802642e32abab2f19ca7bf1e8d808630f22e73c33113dd33c1c44a",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2021.json",
+      "sha256": "a1316e8a424e6c916a13535f3533dff2b45e81c9dba37fb6dcfeada0a33c8e94",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2022.json",
+      "sha256": "160d169a4a41d7e80439a9bccd04865b1fb13d6592df8a0a177e062bd93a4fc3",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2023.json",
+      "sha256": "e3062f220602a4956ab6cbd10b7e210260591c6609c5c501b0eeffff73b20523",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2024.json",
+      "sha256": "839466c4f6abd163c6444cfda524caeb974137d44761090cad611ccbf00a502d",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2025.json",
+      "sha256": "9301b0dcf84e1475c69e7acaf2b7feb0a9ddc2dbbefb6edb99b77bfd42834b74",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000300",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000300-2026.json",
+      "sha256": "7d17b70e6dcb4c26b050ea64facc8e199cb934d96b175c53e7e7279380aedcc9",
+      "name": "沪深300"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2019,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2019-01-01,2019-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2019.json",
+      "sha256": "03be406c3ad1cbd19d5f351569d6de7167d5d4c03db687ca5e9bbe2b591cb0da",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2020.json",
+      "sha256": "9806db0f7ddff2340ea33a0c28cdea067643e4228d770f348b016780d5e2d860",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2021.json",
+      "sha256": "666f30c59fe38040602c7fd8f614805da1cd1eb5a05ead455e6ac1f4f2ecfd53",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2022.json",
+      "sha256": "22d581eefb969badd7eefba568257434ae7e3141f822912659227989a3db2bc4",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2023.json",
+      "sha256": "27729b562e9b7d295618e875d4f509e2f03da26b8c447b087d8962680748f590",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2024.json",
+      "sha256": "ba18076da0d72d69ed5b7d6a978d7db14db0637dfd91521f999ccfb95d85a2f7",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2025.json",
+      "sha256": "3ab97e653f6511c30a6feb34fdbd1c65bc74ff162f0c4c94107a9cb8d3034d9d",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000016",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000016-2026.json",
+      "sha256": "a27bf6b1526db46a05d429dad29bf5d901d535c1d1ecb90b83bac5597abe8230",
+      "name": "上证50"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2019,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2019-01-01,2019-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2019.json",
+      "sha256": "8cb8c7cc1ba95680412e0d69a42fcb08a753f9e54785f6dfa90b4c405a95a4bf",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2020.json",
+      "sha256": "a05fa09e8d6ea75dfc2f4c64dbebdf5e9807054ba7ccee1c924eb68be9eda9c5",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2021.json",
+      "sha256": "0b2260e78b563a17fabe337f88ddb9508f302fc6b0f0e3371d312519dae8958f",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2022.json",
+      "sha256": "6b66d23bb9c05cafd1d1e769f247003cba0216de95105f239559265fd35181a3",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2023.json",
+      "sha256": "4832519b1d66d6190afc25fec8f6276bf54b7faf73cb06458a5d2a168109fe3a",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2024.json",
+      "sha256": "51a15309028dea1d10258a09024b111ce71aafaba715fac8381b08cd4b24fe63",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2025.json",
+      "sha256": "5d07f338dda19935f0b2eb2e0736413e292a2347063cae1902a78511dae7b88f",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000905",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000905,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000905-2026.json",
+      "sha256": "ee3b06a1c811f75f3721053c717fddb57e076f63aee41c15c548e0f84c3d4790",
+      "name": "中证500"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2019,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2019-01-01,2019-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2019.json",
+      "sha256": "4f8a8cb336baaaaad52d652a879bc219cb70dae805a602df448b5ede7db1af48",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2020.json",
+      "sha256": "0a97063f9014f14747d563d95cbadced3e232e6f37809c25c6b5d771204f808c",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2021.json",
+      "sha256": "3532b9c7ae43a32911ddd65d296a11334b56d76404bd8c264b1ae35d67faf7bb",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2022.json",
+      "sha256": "cfff7f48a3d2f233916a7f4c278574613a0fe5a5fffc094284757be8894e81ea",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2023.json",
+      "sha256": "0087768db39e3271634276cf142234c3a8a4c46f28b0000145ef5a522e301786",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2024.json",
+      "sha256": "f8362a7819d82fa785d01d0f9ba0345e52020fc47b6e85b867313aedb4e8ccaa",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2025.json",
+      "sha256": "815192eccf2dca66169ca579a42a5b044d20d156928c1b597000a11eb319b499",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sh000852",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000852,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000852-2026.json",
+      "sha256": "f2a327d5d2dfc73dbcba92ae4ff7feb2fa902cbfc7b8633cc0d79e17be01dc42",
+      "name": "中证1000"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2019,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2019-01-01,2019-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2019.json",
+      "sha256": "6f45db6700d0322404f4ce7abcf58b59d57949c0803f74cdc3c13386d17f9b46",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2020.json",
+      "sha256": "2bc4c39b1cb559eba0ca76f3cd0c259e51dc8b409cbbbd77def7db2d23ca65c6",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2021.json",
+      "sha256": "9e2e4d46bff02639fe46a2eb3470ad705743fe7a9bf3b4fe7f00c88cd25560ed",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2022.json",
+      "sha256": "9e720902d0261dd2293a516a499e5919632568036fc1e44a6da045a2b418d067",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2023.json",
+      "sha256": "97a86135b3d337a8acfada7d397b0a471e7b9aff50b38302e991399361743c39",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2024.json",
+      "sha256": "6586bca58c8c0e721e3acac4eb99434fe2f335802af8506236fa7c5ddcea34be",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2025.json",
+      "sha256": "3e92f972155f325251b3dca3c31b6130690c67a6e00a6c0a31d4e30574b4cced",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399006",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399006,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399006-2026.json",
+      "sha256": "dc10654e51ae8d1ab1ab3dbf107f3a004e5607ade2cb4916b646e1b506416f04",
+      "name": "创业板指"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2019,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2019-01-01,2019-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2019.json",
+      "sha256": "a7851f9c7538d1cf2079bc21025213a20a7f0d61dee6a30b5b94e3d3eae6ce64",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2020.json",
+      "sha256": "fedf332e8d26d0979a0793427ac09e82a32599c1c17b9fc21099ed74aad6877c",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2021.json",
+      "sha256": "7dd6c74daf06f425f02d02327a6708f0c19be1d11c883a77c8544cc3d1dd3976",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2022.json",
+      "sha256": "b5e85706ac425eeca60b990082d70a9578b21d94fcd2f5643ece91d0ccd1ac05",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2023.json",
+      "sha256": "f66b3e3460e3cbdd0a7cf6cd8aaf658ce67c7307aef3abbdb31b5cbe81a6abff",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2024.json",
+      "sha256": "77fea6df39ca860878f41a0de9726fe87b369ef92ef176d8bc356732bcd68b42",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2025.json",
+      "sha256": "f4c8511aecbfbfaac5534632cdb7655b735658aeb420c44e6abd88c241790c6e",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sz399967",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz399967,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sz399967-2026.json",
+      "sha256": "3e873417fb82a1af0b4b5fd5a9c47a86135db26d5afa372082c302658f896d7b",
+      "name": "中证军工"
+    },
+    {
+      "symbol": "sh000688",
+      "year": 2020,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2020-01-01,2020-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000688-2020.json",
+      "sha256": "9143b36f45659a30ec75471af15105908424c28844f0ef36b6255c99e5a95c46",
+      "name": "科创50"
+    },
+    {
+      "symbol": "sh000688",
+      "year": 2021,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2021-01-01,2021-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000688-2021.json",
+      "sha256": "a0bbde1be2e26dfff4e70fa6732e70d75dd7ddbc2c2418a04ae3671ee3e91c22",
+      "name": "科创50"
+    },
+    {
+      "symbol": "sh000688",
+      "year": 2022,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2022-01-01,2022-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000688-2022.json",
+      "sha256": "8a7ee0e5a49b6765e5c846f197b2ad5f76ca69e26000a5c54a9deb40eb31829d",
+      "name": "科创50"
+    },
+    {
+      "symbol": "sh000688",
+      "year": 2023,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2023-01-01,2023-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000688-2023.json",
+      "sha256": "d3f59c4a9e3df45af3fd23af3bc9150d0e89d465766a7950348dabb394a22f1c",
+      "name": "科创50"
+    },
+    {
+      "symbol": "sh000688",
+      "year": 2024,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2024-01-01,2024-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000688-2024.json",
+      "sha256": "71b31f644fa85dad6548688724a2971200165232a4c027d344da7cd54c4422ed",
+      "name": "科创50"
+    },
+    {
+      "symbol": "sh000688",
+      "year": 2025,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2025-01-01,2025-12-31,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000688-2025.json",
+      "sha256": "ae861fda94c78f19da41e9090b5cb71daf532cbea76e11db8a3b6c1a9fff5f65",
+      "name": "科创50"
+    },
+    {
+      "symbol": "sh000688",
+      "year": 2026,
+      "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2026-01-01,2026-09-04,500,qfq",
+      "file": "/Users/guzhen/Downloads/fly/分析产出/研究底稿/独立行情/原始响应/sh000688-2026.json",
+      "sha256": "31fab81a18635d6f9df3cbe719c17af0e278b361a0fda4d4f4633932871453ff",
+      "name": "科创50"
+    }
+  ]
+}

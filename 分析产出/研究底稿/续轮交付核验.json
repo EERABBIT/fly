@@ -1,0 +1,24 @@
+{
+  "source_files_checked": 2331,
+  "source_files_changed": [],
+  "monthly_reviews": 81,
+  "monthly_files": 81,
+  "complete_1m": 79,
+  "complete_3m": 77,
+  "local_links_checked": 24537,
+  "broken_links": [],
+  "unresolved_placeholders": [],
+  "checks": {
+    "2024_09_official_low": true,
+    "2024_09_official_close": true,
+    "2024_09_official_return": true,
+    "2021_02_peak": true,
+    "2022_annual_low": true,
+    "future_window_not_completed": true,
+    "pre_release_index_hidden": true,
+    "weekend_baseline_prior_close": true,
+    "all_81_quotes_match_original_lines": true,
+    "root_copy_matches": true,
+    "monthly_regeneration_preserves_review_and_evolution": true
+  }
+}
