@@ -20,7 +20,7 @@ URL = "https://{h}push2his.eastmoney.com/api/qt/stock/kline/get"
 HOSTS = ["", "1.", "7.", "19.", "29.", "33.", "58.", "82."]
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
-MAS = (5, 10, 21, 34)   # the blogger's pyramid ladder
+MAS = (5, 10, 21, 34, 60, 120)   # the blogger's pyramid ladder + 年线级别的 60/120
 
 
 def secid(code):
@@ -28,8 +28,11 @@ def secid(code):
     return ("1." if code.startswith("6") else "0.") + code
 
 
-def daily(code, beg="20260101", end="20301231", fqt=1, retry=len(HOSTS)):
+def daily(code, beg="20250101", end="20301231", fqt=1, retry=len(HOSTS)):
     """Returns [(date, open, close, high, low, volume), ...] oldest first.
+
+    beg reaches back a full extra year: MA120 needs 120 completed bars, so a
+    year-to-date window is short until roughly July.
 
     Fetched through curl rather than urllib: push2his closes urllib's connection
     outright (RemoteDisconnected on every attempt, any headers) while the exact
@@ -66,11 +69,13 @@ SINA = ("https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/"
         "CN_MarketData.getKLineData?symbol={s}&scale=240&ma=no&datalen={n}")
 
 
-def daily_sina(code, n=60):
+def daily_sina(code, n=260):
     """Fallback source. push2his has stretches where every mirror answers with an
     empty body (curl: 52) no matter the host or headers -- sina still serves.
     Same 前复权 daily bars; spot-checked against push2his on 600893 (MA5/10/21/34
     and the 20-day range matched to the cent).
+
+    n defaults to a year of bars so MA120 survives the fallback path too.
     """
     sym = ("sh" if code.startswith("6") else "sz") + code
     cmd = ["curl", "-s", "-m", "20", "-A", UA, SINA.format(s=sym, n=n)]
@@ -87,6 +92,21 @@ def ma(closes, n):
     return sum(closes[-n:]) / n if len(closes) >= n else None
 
 
+def held_names():
+    """code -> 名称, from 持仓.json. sina (the fallback source) doesn't return a
+    name, so without this every line degrades to 600893(600893) whenever
+    push2his is rate-limited -- which is most of the time lately.
+    """
+    try:
+        with open(POS, encoding="utf-8") as f:
+            return {p[0]: p[1] for p in json.load(f)["positions"]}
+    except Exception:
+        return {}
+
+
+NAMES = held_names()
+
+
 def report(code, today=None):
     try:
         bars, name = daily(code)
@@ -98,6 +118,7 @@ def report(code, today=None):
         except Exception as e:
             print(f"{code}  取数失败 {type(e).__name__}")
             return
+    name = NAMES.get(code, name)
     # 盘中跑的时候数据源会带一根当天的未完成 K 线,丢掉,均线只用收盘价算
     if today and bars and bars[-1][0] == today:
         bars = bars[:-1]
