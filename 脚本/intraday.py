@@ -42,10 +42,14 @@ def line(s, name, today):
     if len(d) < 61:
         return f"{name:<8} 取数失败"
     _, pc, px, hi, lo, vol_today, qday = quote(s)
-    if qday != today or px == 0:          # 休市/盘前：退回最近收盘
-        px = hi = lo = pc
-        vol_today = 0
     hist = [float(x["close"]) for x in d]
+    if qday != today or px == 0:
+        # 盘前/休市：hq 里还是上一交易日的行情，它的"昨收"是前天的；
+        # 现价改用最近一根已收盘日线，均线则去掉这根，和盘中口径一致
+        px = hi = lo = hist[-1]
+        pc = hist[-2]
+        vol_today = float(d[-1]["volume"])
+        d, hist = d[:-1], hist[:-1]
     ma = {n: sum(hist[-n:]) / n for n in (5, 10, 21, 34, 60)}
     slope60 = (ma[60] / (sum(hist[-65:-5]) / 60) - 1) * 100
     pv = float(d[-1]["volume"])
